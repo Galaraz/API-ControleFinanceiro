@@ -1,0 +1,23 @@
+{
+    "development": {
+      "port": 3001,
+      "db": {
+        "nome": "Spar-trybe-DB",
+        "url": "cluster0.dwyaz.mongodb.net",
+        "porta": "",
+        "user": "hakatrybes",
+        "password": "shawee2020"
+      },
+      
+      "db2": {
+          "nome": "ControleFinanceiro-DB",
+          "url": "cluster0.r4ort.mongodb.net",
+          "porta": "",
+          "user": "usuario_2020",
+          "password": "kofIcgokSntPuaaI"
+        }
+         
+    }
+  }
+
+         
