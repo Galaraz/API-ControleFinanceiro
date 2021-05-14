@@ -8,7 +8,7 @@ class Count extends Mongoose.Schema {
       },
       value: {
         type:Number,
-        required: false,
+        required: true,
       },
     
       type: {
@@ -16,12 +16,12 @@ class Count extends Mongoose.Schema {
         enum: ['despesa', 'receita'],
         required: true,
       },
-      date: {
+      hireDate: {
         type: String,
         required: true,
       },
          
-      paid: {
+      isPaid: {
         type: Boolean,
         required: true,
       },
