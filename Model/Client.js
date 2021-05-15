@@ -2,16 +2,16 @@ const Mongoose = require("mongoose");
 class Client extends Mongoose.Schema {
   constructor() {
     super({
-      name: {
+      fullName: {
         type: String,
         required: true,
       },
-      endereco: {
+      address: {
         type: String,
         required: false,
       },
     
-      cell: {
+      mobile: {
         type: Number,
         required: true,
       },
